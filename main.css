@@ -1,0 +1,50 @@
+body{
+    font-family: Arial, sans-serif;
+}
+ul, a:link, a:visited {
+    list-style-type: none;
+    margin: 0;
+    padding-left: 10px;
+    padding-top: 10px;
+    overflow: hidden;
+    text-decoration: none;
+    color: black;
+    font-size: 14px;
+    
+}
+li {
+    display: inline;
+    text-decoration: none;
+    color:black;
+}
+a:hover{
+    text-decoration: underline;
+}
+.center-logo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 20px;
+    border-radius: 20px;
+    border-width: 1px;
+    border-color: gray;
+}
+img.center-logo{
+    padding-bottom: 30px;
+}
+.search-button{
+    margin: 0 auto;
+    display: inline;
+    color: rgb(78, 75, 75)
+    
+}
+.button{
+    padding-top: 20px;
+    text-align: center;
+    border-width: 0px;
+    border-color: gray;
+}
+.bottom-list{
+    position: fixed;
+    bottom: 0;
+}
